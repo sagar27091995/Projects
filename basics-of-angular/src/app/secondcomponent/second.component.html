@@ -1,1 +1,10 @@
-<h3>{{title}}</h3>
+<h3>Databinding example</h3>
+
+<p [innerText]="title"></p><!-- property binding example -->
+
+<input type="text" (input)="clickevent($event)"><!-- event binding example -->
+<br><br>
+
+<input class="from-control" [(ngModel)]="inputvalue" type="text" ><!-- Two-way data binding example -->
+
+<p>{{inputvalue}}</p>

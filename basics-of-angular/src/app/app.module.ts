@@ -5,12 +5,16 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './firstcomponent/first.component';
 import { SecondComponent } from './secondcomponent/second.component';
+import { ThridComponent } from './thirdcomponent/third.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    ThridComponent
   ],
   imports: [
     BrowserModule,
